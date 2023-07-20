@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "peracesadmin",
+    "password": "Welcome123!",
+    "database": "PERACESDB",
+    "host": "10.241.132.93",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

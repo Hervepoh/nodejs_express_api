@@ -1,0 +1,36 @@
+{
+  "name": "node_express_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "swagger-autogen": "node ./swagger.js"
+  },
+  "keywords": [
+    "server",
+    "http",
+    "api",
+    "rest"
+  ],
+  "author": "Hervé Ngando",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.4.3",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.1",
+    "swagger-autogen": "^2.23.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-parser": "^10.0.3",
+    "swagger-routes-express": "^3.3.2",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.1"
+  }
+}
