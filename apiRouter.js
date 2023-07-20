@@ -519,7 +519,7 @@ exports.router = (function () {
      * @swagger
      * /api/debt/count/:
      *   get:
-     *     summary: Count debt.
+     *     summary: Count customer.
      *     description: Retrieve the number of debt.
      *     tags:
      *       - Debt
